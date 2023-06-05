@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <canvas id="game" width="640" height="640"></canvas>
+    <div id="youLose" class="left"> <h1 class="lose_text neon-text">You're a loser!</h1> 
+    <button type="button" class="tryAgain" onclick="location.reload(); return false;">Try again</button></div>
+    <div id="youWin" class="right"> <h1 class="win_text neon-text">You're a winner!</h1> 
+        <button type="button" class="tryAgain" onclick="location.reload(); return false;">Try again</button></div>
+    <div class="info"></div>
+    <div class="info_inner"><h1 class="info_text">You have to collect at least 10 pieces, each of the fruits and berries!</h1></div>
+    <script src="app.js"></script>
+</body>
+</html>
